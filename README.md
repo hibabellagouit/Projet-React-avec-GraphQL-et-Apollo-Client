@@ -79,10 +79,9 @@ rm -rf node_modules package-lock.json
 npm install --legacy-peer-deps
 
 
-<img width="1366" height="728" alt="React App - Google Chrome 11_01_2026 19_03_35" src="https://github.com/user-attachments/assets/2b34556f-cabc-4b5f-aa58-0752fcf40a66" />
+
 
 
 ```
+<img width="1366" height="728" alt="React App - Google Chrome 11_01_2026 19_03_35" src="https://github.com/user-attachments/assets/2b34556f-cabc-4b5f-aa58-0752fcf40a66" />
 
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
