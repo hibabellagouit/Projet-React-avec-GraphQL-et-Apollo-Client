@@ -12,20 +12,13 @@ Application web de gestion de comptes et transactions développée avec React, G
 
 
 
-## Installation
 
-1. Cloner le dépôt :
-   ```bash
-   git clone [URL_DU_REPO]
-   cd [NOM_DU_PROJET]
-   ```
-
-2. Installer les dépendances :
+. Installer les dépendances :
    ```bash
    npm install --legacy-peer-deps
    ```
 
-3. Configurer l'URL de l'API GraphQL :
+. Configurer l'URL de l'API GraphQL :
    Modifiez le fichier `src/context/ApolloContext.js` pour pointer vers votre serveur GraphQL :
    ```javascript
    const httpLink = createHttpLink({
@@ -78,21 +71,15 @@ L'application s'attend à ce que votre serveur GraphQL implémente les requêtes
 ### Mutations
 - `createAccount`: Crée un nouveau compte
 - `createTransaction`: Effectue une opération (dépôt, retrait, virement)
-
-## Dépannage
-
-### Erreurs de connexion au serveur GraphQL
-1. Vérifiez que le serveur GraphQL est en cours d'exécution
-2. Vérifiez l'URL du serveur dans `ApolloContext.js`
-3. Assurez-vous que CORS est correctement configuré sur le serveur
-
+  
 ### Problèmes de dépendances
 En cas d'erreurs liées aux dépendances, essayez :
 ```bash
 rm -rf node_modules package-lock.json
 npm install --legacy-peer-deps
 
-<img width="1366" height="728" alt="React App - Google Chrome 11_01_2026 19_03_35" src="https://github.com/user-attachments/assets/5ade888d-0d2e-43d3-a1e1-8d10ebcdb3f7" />
+
+<img width="1366" height="728" alt="React App - Google Chrome 11_01_2026 19_03_35" src="https://github.com/user-attachments/assets/2b34556f-cabc-4b5f-aa58-0752fcf40a66" />
 
 
 ```
